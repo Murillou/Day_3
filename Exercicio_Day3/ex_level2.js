@@ -48,7 +48,7 @@ btnTwo.addEventListener("click", function(e){
    
 })
 
-                                                        //CALCULADORA DO PERÍMETRO DO TRIÂNGULO
+                                                        //CALCULADORA DA ÁREA DO RETANGULO
 
 
 const btnTree = document.querySelector("#enviarTree")
@@ -68,4 +68,40 @@ btnTree.addEventListener("click", function(e){
 
     resultTree.innerHTML = areaRetangulo
 
+})
+
+                                                        //CALCULADORA DA ÁREA DO CÍRCULO
+
+const btnFour = document.querySelector("#enviarFour")
+
+btnFour.addEventListener("click", function(e){
+
+    e.preventDefault()
+
+    const raio = prompt('Digite o raio do círculo:')
+    console.log(raio)
+
+    const areaCirculo = Math.PI * raio * raio
+    console.log(areaCirculo)
+
+    resultFour.innerHTML = areaCirculo.toFixed(2)
+})
+
+                                                        //CALCULADORA DA ÁREA DO CÍRCULO
+
+const btnFive = document.querySelector("#btnFive")
+
+btnFive.addEventListener("click", function(){
+
+    const now = new Date()
+    const year = now.getFullYear()
+    const month = now.getMonth()
+    const date = now.getDate()
+    const hour = now.getHours()
+    const minutes = now.getMinutes()
+
+    const all = `  ${year}-${month}-${date} Horário: ${hour}:${minutes}`
+
+
+    resultFive.innerHTML = all
 })

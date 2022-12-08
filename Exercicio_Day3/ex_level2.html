@@ -9,10 +9,10 @@
 </head>
 <body>
 
-    <div style="display:flex;">
-        <div style="border: solid 1px black;"> 
+    <div style="border-top:1px solid black;display:flex; justify-content: space-around;">
+        <div style=""> 
 
-            <h1 style="text-align:center ;"> SCRIPT CALCULADORA DA ÁREA DE UM TRIANGULO </h1>
+            <h3 style="text-align:center ;"> SCRIPT CALCULADORA DA ÁREA DE UM TRIANGULO </h3>
 
                 <form style="text-align: center; "action="">
                     <input type="text" name="base" id="base" placeholder="Digite o valor da base"><br><br>
@@ -23,9 +23,9 @@
 
         </div>
 
-        <div style="border: solid 1px black;"> 
+        <div style=> 
             
-            <h1 style="text-align:center ;"> SCRIPT CALCULADORA DO PERÍMETRO DE UM TRIÂNGULO </h1>
+            <h3 style="text-align:center ;"> SCRIPT CALCULADORA DO PERÍMETRO DE UM TRIÂNGULO </h3>
         
                 <form style="text-align: center; "action="">
                     <input type="text" name="lado1" id="lado1" placeholder="Digite o valor do Lado A"><br><br>
@@ -39,15 +39,31 @@
     </div>
 
 
-    <div>
-        <div style="border: solid 1px black">
+    <div style="border-top: 1px solid black ;display: flex; justify-content: space-around; ">
+        <div style="margin-top:3%;">
 
-            <h1 style="text-align:center;"> SCRIPT CALCULADORA DA ÁREA DO RETÂNGULO</h1>
+            <h3 style="text-align:center;"> SCRIPT CALCULADORA DA ÁREA DO RETÂNGULO</h3>
 
             <form style="text-align:center;">
                 <button id="enviarTree" name="enviarTree"> Clique aqui para saber a área de um retângulo </button>
                 <h3>O resultado da área do retângulo é: <span style="color: rgb(255, 0, 0);" id="resultTree"></span></h3>
             </form>
+        </div>
+
+        <div style="margin-top:3%;">
+
+            <h3 style="text-align:center;"> SCRIPT CALCULADORA DA ÁREA DO CÍRCULO</h3>
+
+            <form style="text-align:center;">
+                <button id="enviarFour"> Clique aqui para saber a área de um círculo </button>
+                <h3>O resultado da área do retângulo é: <span style="color: rgb(255, 0, 0);" id="resultFour"></span></h3>
+            </form>
+        </div>
+    </div>
+
+    <div style="border-top: 1px solid black ;display: flex; justify-content: space-around; ">
+        <div style="margin-top:3%; text-align:center;">
+            <button style="font-size:20px;cursor:pointer; border:none; background-color:white;" id="btnFive">CLIQUE PARA SABER DATA E HORÁRIO ATUAL: </button><span style="font-size:20px;color: rgb(255, 0, 0);" id="resultFive"></span></h2>
         </div>
     </div>
 
