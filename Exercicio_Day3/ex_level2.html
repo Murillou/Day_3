@@ -9,29 +9,44 @@
 </head>
 <body>
 
-    <div style="border: solid 2px black;"> 
-        <h1 style="text-align:center ;"> SCRIPT CALCULADORA DA ÁREA DE UM TRIANGULO </h1>
-        <div>
-            <form style="text-align: center; "action="">
-                <input type="text" name="base" id="base" placeholder="Digite o valor da base"><br><br>
-                <input type="text" name="altura" id="altura" placeholder="Digite o valor da altura"><br><br>
-                <input type="submit" name="Enviar" id="Enviar"><br>
-                    <h3> O Resultado da área do triângulo é: <span style="color:rgb(255, 0, 0);" id="result"></span> </h3>
-            </form>
+    <div style="display:flex;">
+        <div style="border: solid 1px black;"> 
+
+            <h1 style="text-align:center ;"> SCRIPT CALCULADORA DA ÁREA DE UM TRIANGULO </h1>
+
+                <form style="text-align: center; "action="">
+                    <input type="text" name="base" id="base" placeholder="Digite o valor da base"><br><br>
+                    <input type="text" name="altura" id="altura" placeholder="Digite o valor da altura"><br><br>
+                    <input type="submit" name="Enviar" id="Enviar"><br>
+                        <h3> O Resultado da área do triângulo é: <span style="color:rgb(255, 0, 0);" id="result"></span> </h3>
+                </form>
+
+        </div>
+
+        <div style="border: solid 1px black;"> 
+            
+            <h1 style="text-align:center ;"> SCRIPT CALCULADORA DO PERÍMETRO DE UM TRIÂNGULO </h1>
+        
+                <form style="text-align: center; "action="">
+                    <input type="text" name="lado1" id="lado1" placeholder="Digite o valor do Lado A"><br><br>
+                    <input type="text" name="lado2" id="lado2" placeholder="Digite o valor do Lado B"><br><br>
+                    <input type="text" name="lado3" id="lado3" placeholder="Digite o valor do Lado C"><br><br>
+                    <input type="submit" name="Enviar" id="enviarTwo"><br>
+                        <h3> O Resultado do perímetro do triângulo é: <span style="color:rgb(255, 0, 0);" id="resultTwo"></span> </h3>
+                </form>
+
         </div>
     </div>
 
-  
 
-    <div style="margin-top:3%;border: solid 2px black;"> 
-        <h1 style="text-align:center ;"> SCRIPT CALCULADORA DO PERÍMETRO DE UM TRIÂNGULO </h1>
-        <div>
-            <form style="text-align: center; "action="">
-                <input type="text" name="lado1" id="lado1" placeholder="Digite o valor do Lado A"><br><br>
-                <input type="text" name="lado2" id="lado2" placeholder="Digite o valor do Lado B"><br><br>
-                <input type="text" name="lado3" id="lado3" placeholder="Digite o valor do Lado C"><br><br>
-                <input type="submit" name="Enviar" id="enviarTwo"><br>
-                    <h3> O Resultado do perímetro do triângulo é: <span style="color:rgb(255, 0, 0);" id="resultTwo"></span> </h3>
+    <div>
+        <div style="border: solid 1px black">
+
+            <h1 style="text-align:center;"> SCRIPT CALCULADORA DA ÁREA DO RETÂNGULO</h1>
+
+            <form style="text-align:center;">
+                <button id="enviarTree" name="enviarTree"> Clique aqui para saber a área de um retângulo </button>
+                <h3>O resultado da área do retângulo é: <span style="color: rgb(255, 0, 0);" id="resultTree"></span></h3>
             </form>
         </div>
     </div>

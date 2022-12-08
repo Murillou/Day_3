@@ -49,3 +49,23 @@ btnTwo.addEventListener("click", function(e){
 })
 
                                                         //CALCULADORA DO PERÍMETRO DO TRIÂNGULO
+
+
+const btnTree = document.querySelector("#enviarTree")
+
+btnTree.addEventListener("click", function(e){
+
+    e.preventDefault()
+
+    const comprimento = prompt ('Digite o comprimento do retângulo')
+    console.log(comprimento)
+
+    const largura = prompt('Digite a largura do retângulo')
+    console.log(largura)
+
+    const areaRetangulo = comprimento * largura
+    console.log(areaRetangulo)
+
+    resultTree.innerHTML = areaRetangulo
+
+})
