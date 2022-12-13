@@ -57,7 +57,7 @@ btnTree.addEventListener("click", function(e){
 
     e.preventDefault()
 
-    const comprimento = prompt ('Digite o comprimento do retângulo')
+    const comprimento = prompt('Digite o comprimento do retângulo')
     console.log(comprimento)
 
     const largura = prompt('Digite a largura do retângulo')
@@ -67,7 +67,7 @@ btnTree.addEventListener("click", function(e){
     console.log(areaRetangulo)
 
     resultTree.innerHTML = areaRetangulo
-
+ 
 })
 
                                                         //CALCULADORA DA ÁREA DO CÍRCULO
@@ -105,3 +105,4 @@ btnFive.addEventListener("click", function(){
 
     resultFive.innerHTML = all
 })
+
