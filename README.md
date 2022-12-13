@@ -1,2 +1,2 @@
 # Day_3
- Curso Day 3 com os meus primeiros scripts feitos.
+ Curso 30DaysOfJavaScript, com os meus primeiros scripts feitos.
